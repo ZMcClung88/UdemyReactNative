@@ -1,10 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card = props => {
-  console.log('props', props);
-  return <View style={style.containerStyle}>{props.children}</View>;
-};
+const Card = props => 
+  // console.log('props', props);
+   <View style={style.containerStyle}>{props.children}</View>;
 
 const style = {
   containerStyle: {
